@@ -1,0 +1,368 @@
+{
+  "Actor": {
+    "types": ["character", "vampire", "ghoul", "mortal", "coterie"],
+    "templates": {
+      "base": {
+        "biography": "",
+        "appearance": "",
+        "equipment": "",
+        "notes": "",
+        "headers":{
+          "concept":"",
+          "chronicle":"",
+          "ambition":"",
+          "desire":"",
+          "touchstones":"",
+          "tenets":""
+        },
+        "exp": {
+          "value": 0,
+          "max": 0
+        },
+        "humanity": {
+          "value": 0,
+          "stains": 0
+        },
+        "health": {
+          "aggravated": 0,
+          "superficial": 0,
+          "max": 5
+        },
+        "willpower": {
+          "aggravated": 0,
+          "superficial": 0,
+          "max": 5
+        },
+        "abilities": {
+          "strength": {
+            "value": 1,
+            "name": "vm20DarkAge.Strength"
+          },
+          "charisma": {
+            "value": 1,
+            "name": "vm20DarkAge.Charisma"
+          },
+          "intelligence": {
+            "value": 1,
+            "name": "vm20DarkAge.Intelligence"
+          },
+          "dexterity": {
+            "value": 1,
+            "name": "vm20DarkAge.Dexterity"
+          },
+          "manipulation": {
+            "value": 1,
+            "name": "vm20DarkAge.Manipulation"
+          },
+          "wits": {
+            "value": 1,
+            "name": "vm20DarkAge.Wits"
+          },
+          "stamina": {
+            "value": 1,
+            "name": "vm20DarkAge.Stamina"
+          },
+          "composure": {
+            "value": 1,
+            "name": "vm20DarkAge.Composure"
+          },
+          "resolve": {
+            "value": 1,
+            "name": "vm20DarkAge.Resolve"
+          }
+        },
+        "skills": {
+          "athletics": {
+            "value": 0,
+            "name": "vm20DarkAge.Athletics"
+          },
+          "animal ken": {
+            "value": 0,
+            "name": "vm20DarkAge.AnimalKen"
+          },
+          "academics": {
+            "value": 0,
+            "name": "vm20DarkAge.Academics"
+          },
+          "brawl": {
+            "value": 0,
+            "name": "vm20DarkAge.Brawl"
+          },
+          "etiquette": {
+            "value": 0,
+            "name": "vm20DarkAge.Etiquette"
+          },
+          "awareness": {
+            "value": 0,
+            "name": "vm20DarkAge.Awareness"
+          },
+          "craft": {
+            "value": 0,
+            "name": "vm20DarkAge.Craft"
+          },
+          "insight": {
+            "value": 0,
+            "name": "vm20DarkAge.Insight"
+          },
+          "finance": {
+            "value": 0,
+            "name": "vm20DarkAge.Finance"
+          },
+          "drive": {
+            "value": 0,
+            "name": "vm20DarkAge.Drive"
+          },
+          "intimidation": {
+            "value": 0,
+            "name": "vm20DarkAge.Intimidation"
+          },
+          "investigation": {
+            "value": 0,
+            "name": "vm20DarkAge.Investigation"
+          },
+          "firearms": {
+            "value": 0,
+            "name": "vm20DarkAge.Firearms"
+          },
+          "leadership": {
+            "value": 0,
+            "name": "vm20DarkAge.Leadership"
+          },
+          "medicine": {
+            "value": 0,
+            "name": "vm20DarkAge.Medicine"
+          },
+          "larceny": {
+            "value": 0,
+            "name": "vm20DarkAge.Larceny"
+          },
+          "performance": {
+            "value": 0,
+            "name": "vm20DarkAge.Performance"
+          },
+          "occult": {
+            "value": 0,
+            "name": "vm20DarkAge.Occult"
+          },
+          "melee": {
+            "value": 0,
+            "name": "vm20DarkAge.Melee"
+          },
+          "persuasion": {
+            "value": 0,
+            "name": "vm20DarkAge.Persuasion"
+          },
+          "politics": {
+            "value": 0,
+            "name": "vm20DarkAge.Politics"
+          },
+          "stealth": {
+            "value": 0,
+            "name": "vm20DarkAge.Stealth"
+          },
+          "streetwise": {
+            "value": 0,
+            "name": "vm20DarkAge.Streetwise"
+          },
+          "science": {
+            "value": 0,
+            "name": "vm20DarkAge.Science"
+          },
+          "survival": {
+            "value": 0,
+            "name": "vm20DarkAge.Survival"
+          },
+          "subterfuge": {
+            "value": 0,
+            "name": "vm20DarkAge.Subterfuge"
+          },
+          "technology": {
+            "value": 0,
+            "name": "vm20DarkAge.Technology"
+          }
+        }
+      },
+      "disciplines": {
+        "disciplines": {
+          "animalism": {
+            "name": "vm20DarkAge.Animalism",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "auspex": {
+            "name": "vm20DarkAge.Auspex",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "celerity": {
+            "name": "vm20DarkAge.Celerity",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "dominate": {
+            "name": "vm20DarkAge.Dominate",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "fortitude": {
+            "name": "vm20DarkAge.Fortitude",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "obfuscate": {
+            "name": "vm20DarkAge.Obfuscate",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "potence": {
+            "name": "vm20DarkAge.Potence",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "presence": {
+            "name": "vm20DarkAge.Presence",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "protean": {
+            "name": "vm20DarkAge.Protean",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "sorcery": {
+            "name": "vm20DarkAge.BloodSorcery",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "oblivion": {
+            "name": "vm20DarkAge.Oblivion",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "alchemy": {
+            "name": "vm20DarkAge.ThinBloodAlchemy",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "rituals": {
+            "name": "vm20DarkAge.Rituals",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "ceremonies": {
+            "name": "vm20DarkAge.Ceremonies",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          }
+        }
+      }
+    },
+   
+    "character": {
+      "templates": ["base","disciplines"],
+      "headers":{
+        "predator":"",
+        "sire":"",
+        "generation":"",
+        "bane":""
+      },
+      "blood": {
+        "potency": 0,
+        "resonance": ""
+      },
+      "clan": {
+        "value": ""
+      },
+      "hunger": {
+        "value": 1
+      }
+    },
+    "vampire": {
+      "templates": ["base","disciplines"],
+      "headers":{
+        "predator":"",
+        "sire":"",
+        "generation":"",
+        "bane":""
+      },
+      "blood": {
+        "potency": 0,
+        "resonance": ""
+      },
+      "clan": {
+        "value": ""
+      },
+      "hunger": {
+        "value": 1
+      }
+    },
+    "ghoul": {
+      "templates": ["base","disciplines"],
+      "headers":{
+        "domitor":""
+      }
+    },
+    "mortal": {
+      "templates": ["base"]
+    },
+    "coterie" : {
+      "biography": "",
+      "equipment": "",
+      "notes": "",
+      "headers":{
+        "concept": ""
+      }
+    }
+  },
+  "Item": {
+    "types": ["feature", "power", "specialty", "boon", "customRoll"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "feature": {
+      "templates": ["base"],
+      "featuretype":"merit",
+      "points": 0
+    },
+    "power": {
+      "templates": ["base"],
+      "discipline": "rituals",
+      "duration": "",
+      "dice1": "discipline",
+      "dice2": "discipline",
+      "cost": "",
+      "rollable": false,
+      "skill": false,
+      "amalgam": false
+    },
+    "specialty": {
+      "templates": ["base"],
+      "skill": "athletics"
+    },
+    "boon": {
+      "templates": ["base"],
+      "boontype": "Trivial"
+    },
+    "customRoll": {
+      "templates": ["base"],
+      "dice1" : "",
+      "dice2" : ""
+    }
+  }
+}
