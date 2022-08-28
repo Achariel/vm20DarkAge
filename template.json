@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["character", "vampire", "ghoul", "mortal", "coterie"],
+    "types": ["actor", "vampire", "ghoul", "mortal", "coterie"],
     "templates": {
       "base": {
         "biography": "",
